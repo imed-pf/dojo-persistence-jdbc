@@ -52,7 +52,7 @@
 			CREATE TABLE processo
 			(
 			  codigo bigint NOT NULL DEFAULT nextval('processo_codigo'::regclass),
-			  cliente bigint NOT NULL,
+			  cod_cliente bigint NOT NULL,
 			  numeroprocesso bigint NOT NULL,
 			  ativo character(1) DEFAULT '1',
 			  datacriacao timestamp without time zone DEFAULT now(),
