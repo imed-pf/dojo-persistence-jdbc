@@ -7,8 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import br.edu.imed.model.Customer;
-
 public class JdbcExample {
 
 	public static void main(String[] argv) throws SQLException {
